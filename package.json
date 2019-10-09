@@ -1,0 +1,85 @@
+{
+  "name": "react-project-msh",
+  "version": "1.0.0",
+  "description": "react react-redux react-router-dom",
+  "main": "index.js",
+  "scripts": {
+    "start": "node scripts/start.js",
+    "build": "node scripts/build.js",
+    "test": "node scripts/test.js",
+    "theme": "node theme.js"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "zzj",
+  "license": "ISC",
+  "devDependencies": {},
+  "dependencies": {
+    "@babel/core": "^7.4.5",
+    "antd": "^3.20.0",
+    "axios": "^0.19.0",
+    "babel-eslint": "^10.0.2",
+    "babel-loader": "^8.0.6",
+    "babel-plugin-import": "^1.12.0",
+    "babel-plugin-named-asset-import": "^0.3.2",
+    "babel-preset-react-app": "^9.0.0",
+    "case-sensitive-paths-webpack-plugin": "^2.2.0",
+    "chalk": "^2.4.2",
+    "css-loader": "^3.0.0",
+    "dotenv": "^8.0.0",
+    "dotenv-expand": "^5.1.0",
+    "eslint": "5.6.0",
+    "eslint-config-react-app": "^3.0.3",
+    "eslint-loader": "2.1.1",
+    "eslint-plugin-flowtype": "2.50.1",
+    "eslint-plugin-import": "2.14.0",
+    "eslint-plugin-jsx-a11y": "6.1.1",
+    "eslint-plugin-react": "7.11.1",
+    "file-loader": "^4.0.0",
+    "html-webpack-plugin": "^4.0.0-beta.5",
+    "less": "2.7.2",
+    "less-loader": "^4.1.0",
+    "mini-css-extract-plugin": "^0.7.0",
+    "mockjs": "^1.0.1-beta3",
+    "pnp-webpack-plugin": "^1.5.0",
+    "postcss-flexbugs-fixes": "^4.1.0",
+    "postcss-loader": "^3.0.0",
+    "postcss-preset-env": "^6.6.0",
+    "react": "^16.8.6",
+    "react-app-polyfill": "^1.0.1",
+    "react-dev-utils": "^9.0.1",
+    "react-dom": "^16.8.6",
+    "react-hot-loader": "^4.12.0",
+    "react-redux": "^7.1.0",
+    "react-router-dom": "^5.0.1",
+    "redux": "^4.0.1",
+    "redux-thunk": "^2.3.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "url-loader": "^2.0.1",
+    "webpack": "^4.35.2",
+    "webpack-dev-server": "^3.7.2",
+    "webpack-manifest-plugin": "^2.0.4"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "babel": {
+    "presets": [
+      "react-app"
+    ]
+  }
+}
